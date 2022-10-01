@@ -1,0 +1,66 @@
+/* container, h1 , p.quote , p.author */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+body {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background: linear-gradient(235deg, #BABC4A 0%, #000000 100%), linear-gradient(235deg, #0026AC 0%, #282534 100%), linear-gradient(235deg, #00FFD1 0%, #000000 100%), radial-gradient(120% 185% at 25% -25%, #EEEEEE 0%, #EEEEEE 40%, #7971EA calc(40% + 1px), #7971EA 50%, #393E46 calc(50% + 1px), #393E46 70%, #222831 calc(70% + 1px), #222831 100%), radial-gradient(70% 140% at 90% 10%, #F5F5C6 0%, #F5F5C6 30%, #7DA87B calc(30% + 1px), #7DA87B 60%, #326765 calc(60% + 1px), #326765 80%, #27253D calc(80% + 1px), #27253D 100%);
+background-blend-mode: overlay, lighten, overlay, color-burn, normal;
+}
+
+.container {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: 30vh auto;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #7971EA;
+}
+
+p.quote {
+    text-align: justify;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p.author {
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #3cad37;
+}
+
+button{
+    height: 60px;
+    max-width: 150px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #282534;
+    color: #EEEEEE;
+    border: none;
+    cursor: pointer;
+}
